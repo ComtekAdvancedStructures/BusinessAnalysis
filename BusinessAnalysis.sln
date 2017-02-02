@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessAnalysis", "BusinessAnalysis\BusinessAnalysis.csproj", "{BFED67FC-8265-4B57-8F00-FC2E20B9E022}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessAnalysis.Model", "BusinessAnalysis\BusinessAnalysis.Model.csproj", "{BFED67FC-8265-4B57-8F00-FC2E20B9E022}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessAnalysis.BusinessLogic", "BusinessAnalysis.BusinessLogic\BusinessAnalysis.BusinessLogic.csproj", "{6171BF10-BB96-47E2-8F73-14821906CC54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessAnalysis.DataAccess", "BusinessAnalysis.DataAccess\BusinessAnalysis.DataAccess.csproj", "{EA8D32BC-8E4F-46BB-8482-38E306614F31}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{BFED67FC-8265-4B57-8F00-FC2E20B9E022}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BFED67FC-8265-4B57-8F00-FC2E20B9E022}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BFED67FC-8265-4B57-8F00-FC2E20B9E022}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6171BF10-BB96-47E2-8F73-14821906CC54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6171BF10-BB96-47E2-8F73-14821906CC54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6171BF10-BB96-47E2-8F73-14821906CC54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6171BF10-BB96-47E2-8F73-14821906CC54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA8D32BC-8E4F-46BB-8482-38E306614F31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA8D32BC-8E4F-46BB-8482-38E306614F31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA8D32BC-8E4F-46BB-8482-38E306614F31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA8D32BC-8E4F-46BB-8482-38E306614F31}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

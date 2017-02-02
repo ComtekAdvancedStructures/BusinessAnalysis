@@ -1,0 +1,18 @@
+﻿//using System.Data.Entity;
+
+namespace Comtek.BaseDataAccess.Template
+{
+    //public class EntityConfig
+    //{
+    //    public void ApplyConfig(DbModelBuilder modelBuilder)
+    //    {
+    //        //modelBuilder.Configurations.Add(new SampleObjectConfig());
+    //    }
+
+        //  Change the SampleObject to an object that's in the data model that's being used
+        //  Type in pcet then hit tab to create template for entity type config
+        //  Type ppp then hit tab to add properties within the template
+
+    //}
+
+}

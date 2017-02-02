@@ -1,0 +1,51 @@
+﻿using System.Data.Entity;
+using System.Data.Entity.ModelConfiguration.Conventions;
+
+namespace Comtek.BaseDataAccess.Template
+{
+    /// <summary>
+    /// ToDo: create an entry in the app.config and web.config file for the ConnectionString. Note: Change the AppName to the actual application name
+    ///       <entityFramework>
+    ///             blah blah blah
+    ///       </entityFramework>
+    /* 
+           <connectionStrings>
+                 <add name="AppNameConnectionString" providerName="System.Data.SqlClient" connectionString="data source=cksql02; initial catalog=AppName;user id=inComtekUser;password=inComtekUser;" />
+           </connectionStrings>
+    */
+    /// 
+    /// ToDo: in PackageManagerConsole, select this Comtek.XXX.DataAccess project, 
+    /// 
+    ///     1. Add this connection string to web.config in project InComtek3
+    ///     2. Package Manager Console for this DataAccess project 
+    ///         a) enable-migrations 
+    ///         b) add-migration InitialMigration
+    ///         c) update-database
+    /// 
+    /// </summary>
+    public class TemplateDbContext : DbContext
+    {
+        // change this to the app name, the XXX part in Comtek.XXX.DataAccess
+        private const string AppName = "Generic";
+        
+        public TemplateDbContext() : base($"name={AppName}ConnectionString") { }
+
+        // The list of dbsets (models) that are contained in this DbContext
+        //public DbSet<SampleObject> SomeObjects { get; set; }
+
+        /// <summary>
+        ///     This stuff doesn't need to be changed, you can leave it as-is pretty much all the time
+        /// </summary>
+        /// <param name="modelBuilder">the DbModelBuilder </param>
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+            Database.SetInitializer<TemplateDbContext>(null);
+            modelBuilder.Conventions.Remove<OneToManyCascadeDeleteConvention>();
+
+            var entityConfig = new EntityConfig();
+            entityConfig.ApplyConfig(modelBuilder);
+        }
+    }
+
+}

@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BusinessAnalysis.Model.Constraint" Collapsed="true">
+    <Position X="0.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAQAAABgAAIAAIAACAAABAAAAAAAAAAEAAAAAAE=</HashCode>
+      <FileName>Constraint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessAnalysis.Model.NullConstraint" Collapsed="true">
+    <Position X="0.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Constraint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessAnalysis.Model.Project" Collapsed="true">
+    <Position X="6.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEjAAQEIpBwAAIAAIIAAAQAAAICABAAAACEBAEAAAE=</HashCode>
+      <FileName>Project.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessAnalysis.Model.NullProject" Collapsed="true">
+    <Position X="6.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Project.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessAnalysis.Model.ProjectNote" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAQAAABAAAIAAIAACAAABAAAAAAAAAAECAAAAAE=</HashCode>
+      <FileName>ProjectNotes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessAnalysis.Model.NullProjectNote" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProjectNotes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessAnalysis.Model.Requirement" Collapsed="true">
+    <Position X="6.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAYAABBgAAIAAIAACAAABAAAAAAgAQAUAAAAAAE=</HashCode>
+      <FileName>Requirement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessAnalysis.Model.NullRequirement" Collapsed="true">
+    <Position X="6.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Requirement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessAnalysis.Model.UserStory" Collapsed="true">
+    <Position X="3.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAiAAwAAABAAAIAIIAACAAABAIAAAAAAACEAAAAAAU=</HashCode>
+      <FileName>UserStory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessAnalysis.Model.NullUserStory" Collapsed="true">
+    <Position X="3.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UserStory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessAnalysis.Model.Risk" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAQAAABgAAIAAIAACAAABAAAAAAAAAAEAAAAAAE=</HashCode>
+      <FileName>Risk.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessAnalysis.Model.NullRisk" Collapsed="true">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Risk.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessAnalysis.Model.ScopeItem" Collapsed="true">
+    <Position X="3.5" Y="3.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAQAAABgAAIAAIAACAAABAAEAAAAAAAEAAAACAE=</HashCode>
+      <FileName>ScopeItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessAnalysis.Model.NullScopeItem" Collapsed="true">
+    <Position X="3.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ScopeItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessAnalysis.Model.Stakeholder" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAQAIBBgAAIAAIAAAAQAAAAAAAAAAQAEAAAAAQE=</HashCode>
+      <FileName>Stakeholder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessAnalysis.Model.NullStakeholder" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Stakeholder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessAnalysis.Model.StakeholderType" Collapsed="true">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAQAAABgAAIAAIAAAAQAAAAAAAAAAAAEAAAAAAE=</HashCode>
+      <FileName>StakeholderType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessAnalysis.Model.NullStakeholderType" Collapsed="true">
+    <Position X="3.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StakeholderType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessAnalysis.Model.UseCase">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAiAAQAAABAgAIAAIAACAAABAAAAAAAAAAEAAAAAAU=</HashCode>
+      <FileName>UseCase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessAnalysis.Model.NullUseCase" Collapsed="true">
+    <Position X="2" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UseCase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="BusinessAnalysis.Model.AnalysisState" Collapsed="true">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAIAAAIAACAAAAAAAAAAAAAAAAAAEAAAAQA=</HashCode>
+      <FileName>Project.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BusinessAnalysis.Model.RequirementType" Collapsed="true">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAEQAAAAAAAAAAAAIAABAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Requirement.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BusinessAnalysis.Model.ScopeCategory" Collapsed="true">
+    <Position X="10" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAIAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>ScopeItem.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
